@@ -1,5 +1,12 @@
+/*
+  Los ciclos for se usan para repetir ciclicamente el
+  código que esté expresado dentro de sus llaves hasta
+  que se deje de cumplir cierta condición. Cada vez que
+  se completa una ejecución, se 
+*/
+
 //PARTES DEL CICLO FOR
-  for( declaracion de variables locales; condicion; como afectar variables locales cada vez que se repite el ciclo ){
+  for ([expresiónInicial]; [expresiónCondicional]; [expresiónDeActualización]){ 
     código que se debe repetir
   }
 
