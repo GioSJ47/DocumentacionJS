@@ -10,19 +10,50 @@
     código que se debe repetir
   }
 
-//USO COMUN
-  for(let i=0; i<10; i++){
+
+//USO COMUN ASCENDENTE
+  for(let i = 0; i < 3; i++){
     console.log("Valor de i: " + i)
   }
-  //SE ESCRIBE EN CONSOLA DESDE EL 0 HASTA EL 9
+  /*  RESULTADO EN CONSOLA:
+      0
+      1
+      2
+  */
 
-//USO SIMPLE PARA EXPLORAR UN ARRAY
-  var arr = [ 1, 2, 3 ]
-  for(let i of arr){
-    console.log( arr[i-1] )
+
+//USO COMUN DESCENDENTE
+  for(let i = 2; i <= 0; i--){
+    console.log("Valor de i: " + i)
+  }
+  /*  RESULTADO EN CONSOLA:
+      2
+      1
+      0
+  */
+
+
+//USO SIMPLE PARA EJECUTAR SEGUN LA CANTIDAD DE ELEMENTOS/VALORES QUE POSEA UN ARRAY (USANDO "in")
+  var arr = [ 1, true, 3, ["A","B","C"] ]
+  for(x in arr){
+    console.log( x )
+  }
+  /*  RESULTADO EN CONSOLA:
+        0
+        1
+        2
+        3
+  */
+
+
+//USO SIMPLE PARA TRABAJAR CON CADA ELEMENTO DE UN ARRAY (USANDO "of")
+  var arr = [ 1, true, 3, ["A","B","C"] ]
+  for(x of arr){
+    console.log( x )
   }
   /* RESULTADO EN CONSOLA:
-    1
-    2
-    3
+      1
+      true
+      3
+      ["A","B","C"]
   */
