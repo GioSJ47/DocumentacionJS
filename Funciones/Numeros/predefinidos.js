@@ -24,3 +24,20 @@
   parseFloat(0xF)     // 15
   parseFloat(0xF+0.1) // 15.5
   parseFloat("0xF")   // 0
+
+//PASAR UN NUMERO O STRING A NUMERO ENTERO (parseInt)
+  parseInt(10)      // 10
+  parseInt("10")    // 10
+  parseInt(12.5)    // 12
+  parseInt("12.5")  // 12
+  parseInt(0xF)     // 15
+  parseInt(0xF+0.1) // 15
+  parseInt("0xF")   // 0
+
+
+//CORTAR DECIMALES Y REDODNDEAR
+  var num = 45.34567
+  num.toFixed()    // 45
+  num.toFixed(1)   // 45.3
+  num.toFixed(2)   // 45.35
+  num.toFixed(6)   // 45.345670
