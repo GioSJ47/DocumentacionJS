@@ -55,8 +55,12 @@
   var pos = str.lastIndexOf("repeticion") // 11
   
   
-//
-  
+//EXTRAER PORCION (substring)
+  //         01234567890123
+  var str = "Recortando mi texto.";
+  var porcion = str.substring(11) // "mi texto."
+  var porcion = str.substring(11, 13) // "mi"
+  var porcion = str.substring(13, 11) // "mi"
   
 
 
