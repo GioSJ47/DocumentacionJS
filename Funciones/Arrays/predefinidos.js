@@ -83,6 +83,11 @@
  arr.lastIndexOf(10) // -1
 
 
+//INVERTIR VALORES DE UN ARRAY
+ var arr = [ 1, 2, 3 ]
+ arr.reverse() // [ 3, 2, 1 ]
+
+
 //FUCIONAR ARRAYS (CONCATENAR)
  var a = [ 1, 2, 3 ]
  var b = [ "A", "B", "C" ]
