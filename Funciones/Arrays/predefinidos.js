@@ -87,6 +87,8 @@
  var a = [ 1, 2, 3 ]
  var b = [ "A", "B", "C" ]
  var ab = a.concat(b) // ab = [ 1, 2, 3, "A", "B", "C" ]
+ var ab = a.concat( [ "a", "b", "c" ] ) // [ 1, 2, 3, "a", "b", "c" ]
+ var ab = a.concat( "a", "b", "c" )     // [ 1, 2, 3, "a", "b", "c" ]
  
 //FUCIONAR TODOS LOS VALORES DE UN ARRAY EN UN STRING
  var arr = [ 1, 2, 3, 4 ]
