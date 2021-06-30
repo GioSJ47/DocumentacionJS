@@ -95,7 +95,7 @@
  var ab = a.concat( [ "a", "b", "c" ] ) // [ 1, 2, 3, "a", "b", "c" ]
  var ab = a.concat( "a", "b", "c" )     // [ 1, 2, 3, "a", "b", "c" ]
  
-//FUCIONAR TODOS LOS VALORES DE UN ARRAY EN UN STRING
+//CONCATENAR TODOS LOS VALORES DE UN ARRAY EN UN STRING
  var arr = [ 1, 2, 3, 4 ]
  arr = arr.join() // "1,2,3,4"
 
@@ -104,6 +104,10 @@
 
  var arr = [ 1, 2, 3, 4 ]
  arr = arr.join(" ; ") // "1 ; 2 ; 3 ; 4"
+
+//CONCATENAR UN ARRAY
+ var arr = [ "Te", "xto", " se", "pa", "rado" ]
+ arr = ...arr // "Texto separado"
 
 
 //RECONOCER SI SE TRATA DE UN ARRAY/OBJETO
