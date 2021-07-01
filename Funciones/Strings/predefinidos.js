@@ -2,7 +2,6 @@
   var str = "Mi texto va aquí.";
   str = str.split("") // ["M", "i", " ", "t", "e", "x", "t", "o", " ", "v", "a", " ", "a", "q", "u", "í", "."]
 
-
 //SEPARAR STRING EN ARRAYS CON UN SEPARADOR (split)
   var str = "Primer texto;Segundo Texto;Tercer texto;Ultimo texto";
   str = str.split(";") // ["Primer texto", "Segundo Texto", "Tercer texto", "Ultimo texto"]
@@ -27,7 +26,6 @@
   var str = "Este texto lo quiero en mayusculas"
   str = str.toUpperCase() // "ESTE TEXTO LO QUIERO EN MAYUSCULAS"
 
-
 //TODO EN MINUSCULAS (toLowerCase)
   var str = "ESTE TEXTO LO QUIERO EN MINUSCULAS"
   str = str.toLowerCase() // "este texto lo quiero en minusculas"
@@ -40,14 +38,12 @@
   var str = "Mi texto"
   var pos = str.charAt(8) // ""
 
-  
 //ENCUENTRA LA PRIMERA POSICION DONDE SE ENCUANTRA UN CARACTER O STRING (indexOf)
   var str = "Mi texto"
   var pos = str.indexOf('x') // 5
 
   var str = "Mi texto"
   var pos = str.indexOf('texto') // 3
-
 
 //ENCUENTRA LA ULTIMA POSICION DONDE SE ENCUANTRA UN CARACTER O STRING (lastIndexOf)
   //         012345678901
