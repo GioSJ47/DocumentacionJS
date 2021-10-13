@@ -1,13 +1,18 @@
 //Siguiente elemento:
   e.nextElementSibling
-	e.nextSibling
+  e.nextSibling
 //Anterior elemento:
-	e.previusElementSibling
-	e.previusSibling
+  e.previusElementSibling
+  e.previusSibling
 //Elemento padre:
-	e.parentElement
-	e.parentNode
+  e.parentElement
+  e.parentNode
 //Eliminar elemento:
-	e.remove()
+  e.remove()
 //Modificar elemento completo:
-	e.outerHTML="..."
+  e.outerHTML="..."
+//Modificar el interior del elemento
+  e.innerHTML="..."
+//Modificar texto interno del elemento
+  e.innerText="..."
+  e.textContent="..."
